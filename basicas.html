@@ -22,7 +22,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
 </p>
-Lista desordenada <br> <!-- con viñetas -->
+Lista desordenada <br> <!-- lista con viñetas -->
 <ul>
 <li>Elemento 1</li>
 <li>Elemento 2</li>
@@ -30,7 +30,7 @@ Lista desordenada <br> <!-- con viñetas -->
 <li>Elemento 4</li>
 <li>Elemento 5</li>
 </ul>
-Lista ordenada <br> <!-- con numeros -->
+Lista ordenada <br> <!-- lista con numeros -->
 <ol>
 <li>Elemento 1</li>
 <li>Elemento 2</li>
@@ -40,5 +40,31 @@ Lista ordenada <br> <!-- con numeros -->
 <br>
 Im&aacute;genes <br>
 <img src="https://itculiacan.edu.mx/wp-content/plugins/website-logo/images/LOGO_TEC_PNG_OK.png" alt="Foto de ejemplo">
+<br>
+Tablas en HTML <br>
+<table border> <!-- crea una tabla (border agrega el borde =1,2,3 es el grosor)-->
+	<tr>
+		<th>Encabezado 1</th> <!-- pone titulo a cada columna -->
+		<th>Encabezado 2</th>
+		<th>Encabezado 3</th>
+		<th>Encabezado 4</th>
+	</tr>
+	
+	<tr> <!-- agrega un renglon -->
+		<td>1ra columna</td> <!-- agrega una columna -->
+		<td>2da columna</td>
+		<td>3ra columna</td>
+		<td>4ta columna</td>
+	</tr>
+	<tr> 
+		<td>1ra columna</td> 
+		<td>2da columna</td>
+		<td colspan=2 align=center rowspan=2>3ra columna</td> <!-- colspan es cuantas columnas abarca, osea 2 --> <!-- align es su alineacion --> <!-- rowspan es cuantos renglones abarca -->
+	</tr>
+	<tr> 
+		<td>1ra columna</td> 
+		<td>2da columna</td>
+	</tr>
+</table>
 </body>
 </html>
