@@ -1,0 +1,8 @@
+body{
+	background: pink; /*#000000-FFFFF son tonos de colores*/
+	/*rgb(255,255,255,0 a 1(transparencia de color)) combinaciones de rojo verde y azul*/
+	border: 1px solid hotpink;
+	color: black; /*color letra*/
+	font-size: 16px; /*tamaño de caracteres de toda la pagina*/
+	max-width: 1024px;
+}
