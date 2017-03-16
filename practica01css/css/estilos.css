@@ -9,6 +9,13 @@ form{
 	margin-top: -35px;
 	margin-right: 20px;
 }
+form input{
+	border-radius: 5px;
+}
+form input[type="button"]{
+	background: green;
+	color: white;
+}
 header{
 	background: #B3D8EB;
 }
@@ -17,7 +24,7 @@ header nav{
 	border-radius: 5px;
 	margin: 0 auto;
 	width: 99%;
-	padding: 2px 0px 2px 0px;
+	padding: 1px 0px 1px 0px;
 }
 header nav ul li{
 	color: white;
@@ -26,4 +33,30 @@ header nav ul li{
 }
 #logo{
 	margin-top: -150px;
+}
+#seccion01 article{
+text-align: center;
+}
+#seccion01 article img{
+border: 5px solid rgba(150,150,150,0.5);
+margin-top: 10px;
+width: 98%;
+}
+#seccion02 article{ /*referirse a un id*/
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
+}
+.otraSeccion, .unaSeccion{
+	font-weight: bold;
+}
+.unaSeccion{ /*referirse a una clase(span)*/
+	font-size: 4.5em;
+	font-family: 'Ramabhadra', sans-serif;
+}
+.otraSeccion{
+	font-size: 2em;
+}
+.boton{
+	text-align: center;
 }
