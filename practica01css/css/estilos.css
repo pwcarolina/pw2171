@@ -31,6 +31,9 @@ header nav ul li{
 	display: inline-block;;
 	margin-right: 20px;
 }
+body p{
+	text-align: center;	
+}
 #logo{
 	margin-top: -150px;
 }
@@ -46,17 +49,22 @@ width: 98%;
 	display: inline-block;
 	vertical-align: top;
 	width: 32%;
+	font-family: 'Yantramanav', sans-serif;
 }
 .otraSeccion, .unaSeccion{
 	font-weight: bold;
 }
 .unaSeccion{ /*referirse a una clase(span)*/
 	font-size: 4.5em;
-	font-family: 'Ramabhadra', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 .otraSeccion{
 	font-size: 2em;
+	font-family: 'Sansita', sans-serif;
 }
 .boton{
 	text-align: center;
+	background: white;
+	color: blue;
+}
 }
