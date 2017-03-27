@@ -14,3 +14,10 @@ header nav ul li{
 	color: white;
 	padding: 7px;
 }
+.mithema{
+	color: gray;
+	font-size: 1em;
+}
+body section{
+	display: inline-block;
+}
