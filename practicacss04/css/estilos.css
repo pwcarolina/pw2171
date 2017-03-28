@@ -1,3 +1,42 @@
 body{
-	background: blue;
+	background: #275E90;
+	margin: 0 auto;
+	font-size: 16px;
+	width: 1024px;
+
+}
+header nav ul li{
+	display: inline-block;
+	background: #DADEE2;
+}
+header nav{
+	background: #DADEE2;
+	border-radius: 2px;
+}
+header nav ul{
+	text-align: right;
+}
+#logo{
+		right: -300px;
+		position: relative;
+		float: center;
+}
+#lista2{
+	background: #1C537B;
+	position: relative;
+	margin-top: -10px;
+	color: white;
+	list-style: none;
+}
+#lista2 li:before{
+	color: white;
+	content: "</>";
+}
+#secc01{
+	background: #DADEE2;
+	margin-top: -20px;
+	width: 25%;
+}
+#secc01art01{
+	width:88.5%;
 }
