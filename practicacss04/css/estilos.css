@@ -1,20 +1,26 @@
 body{
-	background: #275E90;
+	
 	margin: 0 auto;
 	font-size: 16px;
 	width: 1024px;
 
 }
+header{
+	background: #275E90;
+}
 header nav ul li{
 	display: inline-block;
-	background: #DADEE2;
+	background: #EFEFEF;/*#DADEE2;*/
 }
 header nav{
-	background: #DADEE2;
+	background: #EFEFEF; /*#DADEE2;*/
 	border-radius: 2px;
 }
 header nav ul{
 	text-align: right;
+}
+body section{
+	display: inline-block;
 }
 #logo{
 		right: -300px;
@@ -32,11 +38,43 @@ header nav ul{
 	color: white;
 	content: "</>";
 }
+#lista3{
+	position: relative;
+	/*margin-top: -4px;*/
+	color: gray;
+	list-style: none;
+}
+#lista3 li{
+	width: 10px;
+}
 #secc01{
-	background: #DADEE2;
+	background: #EFEFEF;
 	margin-top: -20px;
 	width: 25%;
+	border:15px solid #EFEFEF;
+}
+#secc02{
+	width: 70%;
 }
 #secc01art01{
-	width:88.5%;
+	width:88.4%;
+	/*border: 5px;
+	border-color: #EFEFEF;*/
+}
+section #secc01art02{
+	background: white;
+}
+#secc01art02{
+	width: 88.4%;
+	background: solid white;
+}
+#secc01art02 form{
+	background: #275E90;
+	color: #EFEFEF;
+}
+#barra{
+	width: 180px;
+}
+#progreso{
+	vertical-align: middle;
 }
