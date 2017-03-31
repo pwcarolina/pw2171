@@ -3,25 +3,26 @@ body{
 	margin: 0 auto;
 	font-size: 16px;
 	width: 1024px;
-
+	border:5px solid #275E90;
 }
 header{
 	background: #275E90;
 }
 header nav ul li{
 	display: inline-block;
-	background: #EFEFEF;/*#DADEE2;*/
+	background: #EFEFEF;
 }
 header nav{
-	background: #EFEFEF; /*#DADEE2;*/
+	background: #EFEFEF;
 	border-radius: 2px;
 }
-header nav ul{
+header nav ul{ /*acomoda el menu a la derecha*/
 	text-align: right;
 }
-body section{
+body section{ /*acomoda las secciones seguidas*/
 	display: inline-block;
 }
+
 #logo{
 		right: -300px;
 		position: relative;
@@ -40,7 +41,6 @@ body section{
 }
 #lista3{
 	position: relative;
-	/*margin-top: -4px;*/
 	color: gray;
 	list-style: none;
 }
@@ -49,28 +49,71 @@ body section{
 }
 #secc01{
 	background: #EFEFEF;
-	margin-top: -20px;
+	margin-top: -30px;
 	width: 25%;
 	border:15px solid #EFEFEF;
 }
-#secc02{
-	width: 70%;
+section #secc01art02{ /*le pone color a la seccion especifica de todas las secciones*/
+	background: white;
 }
 #secc01art01{
 	width:88.4%;
-	/*border: 5px;
-	border-color: #EFEFEF;*/
-}
-section #secc01art02{
-	background: white;
 }
 #secc01art02{
 	width: 88.4%;
 	background: solid white;
 }
-#secc01art02 form{
+#secc01art02 form{ /*a los form que existan en esa seccion le aplica eso*/
 	background: #275E90;
 	color: #EFEFEF;
+}
+#secc02{
+	width: 70%;
+	color: gray;
+}
+#secc02art01 article{ /*acomoda los articulos dentro de ese articulo mencionado*/
+	display: inline-block;
+	width: 24%;
+	margin:0 auto;
+}
+#secc02art01 img{
+	width: 30%;
+}
+#secc02art01{
+	left: 10px;
+	position: relative;
+	float: center;
+}
+#secc02art02{
+	left: 10px;
+	position: relative;
+	float: center;
+}
+#secc02art02 img{
+	width: 99%;
+	float:center;
+	position: relative;
+	 /*mueve la imagen al centro*/
+}
+#secc02art03{
+	left: 10px;
+	position: relative;
+	float: center;
+}
+#secc02art03 article{
+	display: inline-block;
+	background: #4B6CAB;
+	color: white;
+	text-align: center;
+	width: 24%;
+}
+#boton{
+	background: #81BFD0;
+	color: white;
+	border-radius: 3px;
+	padding:3px 3px;
+	border: 1px solid #81BFD0;
+	margin-top:3px;
 }
 #barra{
 	width: 180px;
@@ -78,3 +121,34 @@ section #secc01art02{
 #progreso{
 	vertical-align: middle;
 }
+#secc02art01 #cubo{
+	width: 40%;
+}
+#usuario{
+	width: 150px;
+}
+#cuboVerde{
+	background: #26A62C;
+	color: white;
+	text-align: center;
+}
+#cuboAzul{
+	background: #216EA7;
+	color: white;
+	text-align: center;
+}
+#cuboLila{
+	background: #7B25A8;
+	color: white;
+	text-align: center;
+}
+#cuboRojo{
+	background: #A41C1F;
+	color: white;
+	text-align: center;
+}
+.tituloCubos{
+	/*padding:-2px 0px;*/
+	margin-top: -5px;
+}
+
